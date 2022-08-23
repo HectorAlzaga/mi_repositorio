@@ -9,7 +9,7 @@
     height: 100px;
     /* background-color: #027fe9; */
     /*USO DE GRADIENTE*/
-    background-image: linear-gradient(to left, #027fe9, #0d1922);
+    background-image: linear-gradient(to left, #027fe9, #064678);
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -21,6 +21,12 @@ a{
     padding: 1rem;
     color: black;
     font-size: 15px;
+}
+/*USO DE TRANSICIONES Y TRANSFORMACIONES*/
+a:hover{
+    color: white;
+    font-size: 18px;
+    transform: scale(2,2);
 }
 .header li{
     display: inline-block;
