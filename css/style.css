@@ -9,7 +9,7 @@
     height: 100px;
     /* background-color: #027fe9; */
     /*USO DE GRADIENTE*/
-    background-image: linear-gradient(to left, #027fe9, #044782);
+    background-image: linear-gradient(to left, #027fe9, #0d1922);
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
