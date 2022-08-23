@@ -1,0 +1,337 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* HEADER */
+.header{
+    display: flex;
+    height: 100px;
+    background-color: #027fe9;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+    font-size: 15px;
+}
+.header li{
+    display: inline-block;
+}
+
+
+/*MAIN INDEX*/
+.mainGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 70vh 70vh;
+    grid-template-areas: "titulo1"
+                         "seccion2"
+                         "seccion3";
+}
+.titulo1{
+    grid-area: titulo1;
+    margin: 20px;
+}
+.seccion2{
+    grid-area: seccion2;
+    margin: 20px 20px 0 20px;
+}
+.seccion3{
+    grid-area: seccion3;
+    margin: 20px;
+}
+.titulo1 h1{
+    font-size: 2.5rem;
+}
+/*Grilla Seccion 2*/
+.seccion2Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 8vh 50vh;
+    grid-template-areas: "bienvenidos bienvenidos"
+                         "parrafo1 img1";
+}
+.bienvenidos{
+    grid-area: bienvenidos;
+}
+.parrafo1{
+    grid-area: parrafo1;
+    margin-right: 20px;
+    width: 57vw;
+    font-size: 1.2rem;
+}
+.img1{
+    grid-area: img1;
+    height: 100%;
+    width: 35vw;
+}
+h2{
+    font-size: 1.5rem;
+}
+
+
+/*Grilla Seccion 3*/
+.seccion3Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 8vh 50vh;
+    grid-template-areas: "participacion participacion"
+                         "img2 parrafo2";
+}
+.participacion{
+    grid-area: participacion;
+}
+.parrafo2{
+    grid-area: parrafo2;
+    width: 57vw;
+    font-size: 1.2rem;
+}
+.img2{
+    grid-area: img2;
+    height: 100%;
+    width: 35vw;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+
+/*FOOTER*/
+.footer{
+    margin-top: 40px;
+    height: 80px;
+    width: 100%;
+    background-color: #3d0a49;
+    color: white;
+    font-size: 20px;
+}
+
+/*ESTILOS QUIENES SOMOS*/
+#mainQS{
+    display: grid;
+    grid-template-columns: 90vw;
+    grid-template-rows: 10vh 60vh 20vh;
+    grid-template-areas: "tituloQuienesSomos"
+                         "descripcionQuienesSomos"
+                         "historia";
+}
+
+.tituloQuienesSomos{
+    grid-area: tituloQuienesSomos;
+}
+
+.tituloQuienesSomosGrilla{
+    display: grid;
+    grid-template-columns: 90vw;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tituloQuienesSomos";
+}
+
+.descripcionQuienesSomos{
+    grid-area: descripcionQuienesSomos;
+}
+
+.descripQSGrilla{
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: auto;
+    grid-template-areas: "textoDescrip imgDescrip";
+    align-items: center;
+}
+
+.historia{
+    grid-area: historia;
+}
+
+.historiaGrilla{
+    display: grid;
+    grid-template-columns: 90vw;
+    grid-template-rows: 1fr;
+    grid-template-areas: "textoHistoria";
+    margin-top: 100px;
+}
+
+.textoHistoria{
+    grid-area: textoHistoria;
+}
+
+.textoDescrip{
+    grid-area: textoDescrip;
+    max-height: 100%;
+}
+
+.imgDescrip{
+    grid-area: imgDescrip;
+    width: 400px;
+    height: 400px;
+}
+
+/*INICIO MEDIA QUERIES 768*/
+ 
+@media only screen and (max-width: 768px) {
+    
+    .header{
+        height: 250px;
+        width: 100%;
+        background-color: #027fe9;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .header li{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        height: 30px;
+        align-items: center;        
+    }
+    a{
+        color: white;
+    }
+    .titulo1 h1{
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+/*MEDIA MAIN*/
+.mainGrid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 1fr 1fr;
+    grid-template-areas: "titulo1"
+                         "seccion2"
+                         "seccion3";
+}
+/*MEDIA SECCION 2*/
+.seccion2Grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 8vh 60vh 70vh;
+    grid-template-areas: "bienvenidos"
+                         "parrafo1"
+                         "img1";
+}
+.parrafo1{
+    margin-right: 20px;
+    width: 100%;
+    font-size: 1.2rem;
+}
+.img1{
+    height: 100%;
+    width: 100%;
+}
+/*MEDIA SECCION 3*/
+.seccion3Grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 8vh 60vh 70vh;
+    grid-template-areas: "participacion"
+                         "parrafo2"
+                         "img2";
+}
+
+.parrafo2{
+    width: 100%;
+    font-size: 1.2rem;
+}
+.img2{
+    height: 100%;
+    width: 100%;
+}
+
+}
+
+/*INICIO MEDIA QUERIES INDEX 480*/
+@media only screen and (max-width: 480px) {
+/*MEDIA MAIN*/
+.mainGrid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 50vh 80vh;
+    grid-template-areas: "titulo1"
+                         "seccion2"
+                         "seccion3";
+} 
+.seccion2Grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 8vh 62vh 40vh;
+    grid-template-areas: "bienvenidos"
+                         "parrafo1"
+                         "img1";
+    margin-top: 45px;
+}
+.parrafo1{
+    font-size: 1rem;
+}
+/*Grilla Seccion 3*/
+.seccion3Grid{
+    grid-template-columns: 1fr;
+    grid-template-rows: 8vh 62vh 40vh;
+    grid-template-areas: "participacion"
+                         "img2"
+                         "parrafo2";
+    margin-top: 45px;
+}
+.participacion{
+    margin-top: 60px;
+}
+.img2{
+    margin-top: 200px;
+}
+
+.parrafo2{
+    margin-top: 90px;
+    font-size: 1rem;
+}
+.footer {
+    margin-top: 1200px;
+}
+
+}
+
+/*media queries de quienes somos*/
+@media only screen and (max-width: 768px){
+    .descripQSGrilla{
+        grid-template-columns: 90vw;
+        grid-template-rows: auto auto;
+        grid-template-areas: "textoDescrip"
+                             "imgDescrip";
+    }
+
+    .imgDescrip{
+        grid-area: imgDescrip;
+        width: 500px;
+        height: 500px;
+    }
+
+    .historiaGrilla{
+        grid-template-columns: 90vw;
+        grid-template-rows: 1fr;
+        grid-template-areas: "textoHistoria";
+        margin-top: 390px;
+    }
+
+    .footer{
+        color: white;
+        margin-top: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+    .historiaGrilla{
+        margin-top: 400px;
+    }
+
+    .footer{
+        margin-top: 450px;
+    }
+
+    .imgDescrip{
+        width: 300px;
+        height: 300px;
+    }
+}
