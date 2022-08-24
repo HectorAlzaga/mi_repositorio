@@ -77,8 +77,32 @@ a:hover{
 .img1{
     grid-area: img1;
     height: 100%;
-    width: 35vw;
+    width: 28vw;
+    animation-name: imgInicio;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
+/*USO DE ANIMACION EN LA IMAGEN*/
+@keyframes imgInicio{
+    0%{
+
+    }
+    25%{
+        width: 35vw;
+    }
+    50%{
+        width: 38vw;
+    }
+    75%{
+        width: 35vw;
+    }
+    100%{
+        width: 30vw;
+    }
+}
+
 h2{
     font-size: 1.5rem;
 }
