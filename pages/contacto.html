@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>Contacto</title>
 </head>
 <body>
     <!-- INICIO DEL NAV -->
-    <nav class="navbar navbar-expand-lg bg-secondary">
+    <nav class="navbar navbar-expand-lg colorNav">
         <div class="container-fluid">
             <a class="navbar-brand col-4 d-flex justify-content-center" href="#"><img src="../images/rey-negro.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse col-8 justify-content-start" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse col-6 justify-content-start" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="colorlink" aria-current="page" href="../index.html">INICIO</a>
                 <a class="colorlink" href="./quienesSomos.html">QUIENES SOMOS</a>
@@ -29,8 +30,12 @@
         </div>
     </nav>
 <!--INICIO DEL HEADER-->
-    <header class="banner">
-        <h1>ESCUELA DE AJEDREZ</h1>
+    <header class="container-fluid banner">
+        <div class="row">
+            <div class="animacion col-sm-12 col-md-12 col-lg-12 col-xxl-12">
+                <h1>ESCUELA DE AJEDREZ</h1>
+            <div>
+        </div>
     </header>
     <main>
         <section class="container-fluid">
@@ -80,8 +85,8 @@
                             </label>
                         </div>
                         </div>
-                        <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Sign in</button>
+                        <div class="col-12 d-flex justify-content-center align-items-center">
+                            <button type="submit" class="boton"> ENVIAR </button>
                         </div>
                     </form>
                 </article>
@@ -92,11 +97,21 @@
             </div>    
         </section>
     </main>
+<!--INICIO DEL FOOTER-->
     <footer>
-        <div class="footer">
-            <p>Derechos Reservados</p>
-            <p>Diseñado por Hector Alzaga</p>
-        </div>
+        <div class="container-fluid">
+            <div class="row mt-2">
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://web.whatsapp.com/" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                </div>
+                <div class="col-6 d-flex justify-content-center align-items-center text-white fs-5">
+                    <p>Diseñado por Hector Alzaga</p>
+                </div> 
+                
+            </div>
+       </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
