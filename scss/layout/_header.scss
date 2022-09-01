@@ -1,6 +1,8 @@
+@import 'utilities/variables';
+
 /*HEADER-BANNER*/
 .banner{
-    background-color: aqua;
+    background-color: $colorUno;
     display: flex;
     justify-content: center;
 }

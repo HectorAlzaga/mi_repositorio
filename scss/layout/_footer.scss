@@ -1,9 +1,11 @@
+@import 'utilities/variables';
+
 /*FOOTER*/
 footer{
     height: 100%;
     width: 100%;
     margin-top: 0%;
-    background-color: rgba(108, 117, 125, 1);
+    background-color: $colorTres;
     display: flex;
     justify-content: center;
 }

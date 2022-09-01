@@ -1,6 +1,7 @@
+/*Paleta de Colores*/
 /*HEADER-BANNER*/
 .banner {
-  background-color: aqua;
+  background-color: #34baab;
   display: flex;
   justify-content: center; }
 
@@ -18,12 +19,13 @@
   to {
     width: 110%; } }
 
+/*Paleta de Colores*/
 /*FOOTER*/
 footer {
   height: 100%;
   width: 100%;
   margin-top: 0%;
-  background-color: #6c757d;
+  background-color: #466067;
   display: flex;
   justify-content: center; }
 
@@ -58,12 +60,13 @@ footer {
 .bi-whatsapp:hover {
   color: #25d366; }
 
+/*Paleta de Colores*/
 body {
-  background-image: radial-gradient(circle, #bed7e5, rgba(193, 243, 251, 0.358)); }
+  background-image: radial-gradient(circle, #bed7e5, #c4c8c5); }
 
 /*NAV*/
 .colorNav {
-  background-image: linear-gradient(to left, #1f1f26, #6c757d); }
+  background-image: linear-gradient(to left, #484450, #6c757d); }
 
 .colorlink {
   font-size: 20px;
@@ -91,7 +94,7 @@ body {
   border-radius: 10px;
   margin-bottom: 10px;
   color: white;
-  background-color: #6c757d;
+  background-color: #484450;
   transition: all 2s; }
 
 .boton:hover {
