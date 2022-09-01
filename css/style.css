@@ -1,127 +1,101 @@
-body{
-   background-image: radial-gradient(circle, rgb(190, 215, 229), rgba(193, 243, 251, 0.358))
-}
-/*NAV*/
-.colorNav{
-    background-image: linear-gradient(to left, rgb(31, 31, 38), rgba(108, 117, 125, 1));
-}
-.colorlink{
-    font-size: 20px;
-    padding: 1rem;
-    text-decoration: none;
-    text-decoration-line: none;
-    color: white;
-}
-/*BANNER*/
-.banner{
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-}
-.animacion{
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    /* border-right: .15em solid #18bdec; */
-    /* animation: blink 1s steps(1) infinite; */
-    animation: typing 5s steps(18) 0s infinite normal both;
-}
-@keyframes typing{
-    from{
-        width: 0%;
-    }    
-    to{
-        width: 110%;
-    }
-}
+/*HEADER-BANNER*/
+.banner {
+  background-color: aqua;
+  display: flex;
+  justify-content: center; }
 
-/*Transformacion en imagenes de Galeria*/
-.imgGaleria{
-    width: 17vw;
-    height: 22vh;
-    margin: 10px;
-    transition: all 2s;
-}
-.imgGaleria:hover{
-    width: 18vw;
-    height: 25vh;
-    transform: scale(2);
-}
-/*Boton de la page Contacto*/
-.boton{
-    width: 20vw;
-    height: 7vh;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    color: white;
-    background-color: rgba(108, 117, 125, 1);
-    transition: all 2s;
-}
-.boton:hover{
-    width: 25vw;
-    height: 9vh;
-    font-size: 1.5rem;
-    background-color: rgb(31, 31, 38) ;
-}
+.animacion {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  /* border-right: .15em solid #18bdec; */
+  /* animation: blink 1s steps(1) infinite; */
+  animation: typing 5s steps(18) 0s infinite normal both; }
+
+@keyframes typing {
+  from {
+    width: 0%; }
+  to {
+    width: 110%; } }
 
 /*FOOTER*/
-footer{
-    height: 100%;
-    width: 100%;
-    margin-top: 0%;
-    background-color: rgba(108, 117, 125, 1);
-    display: flex;
-    justify-content: center;
-}
+footer {
+  height: 100%;
+  width: 100%;
+  margin-top: 0%;
+  background-color: #6c757d;
+  display: flex;
+  justify-content: center; }
+
 /*ENLACES A REDES SOCIALES EN EL FOOTER*/
-.bi-facebook{
-    font-size: 30px;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 35px;
-    color: #fff;
-}
-.bi-facebook:hover{
-    color: #3b5998;
-}
-.bi-instagram{
-    font-size: 30px;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 35px;
-    color: #fff;
-}
-.bi-instagram:hover{
-    color: #8a3ab9;
-}
-.bi-whatsapp{
-    font-size: 30px;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 35px;
-    color: #fff;
-}
-.bi-whatsapp:hover{
-    color: #25d366;
-}
+.bi-facebook {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 35px;
+  color: #fff; }
 
+.bi-facebook:hover {
+  color: #3b5998; }
 
+.bi-instagram {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 35px;
+  color: #fff; }
 
+.bi-instagram:hover {
+  color: #8a3ab9; }
 
-// `xs` returns only a ruleset and no media query
-// ... { ... }
+.bi-whatsapp {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 35px;
+  color: #fff; }
 
-// `sm` applies to x-small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
+.bi-whatsapp:hover {
+  color: #25d366; }
 
-// `md` applies to small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) { ... }
+body {
+  background-image: radial-gradient(circle, #bed7e5, rgba(193, 243, 251, 0.358)); }
 
-// `lg` applies to medium devices (tablets, less than 992px)
-@media (max-width: 991.98px) { ... }
+/*NAV*/
+.colorNav {
+  background-image: linear-gradient(to left, #1f1f26, #6c757d); }
 
-// `xl` applies to large devices (desktops, less than 1200px)
-@media (max-width: 1199.98px) { ... }
+.colorlink {
+  font-size: 20px;
+  padding: 1rem;
+  text-decoration: none;
+  text-decoration-line: none;
+  color: white; }
 
-// `xxl` applies to x-large devices (large desktops, less than 1400px)
-@media (max-width: 1399.98px) { ... }
+/*Transformacion en imagenes de Galeria*/
+.imgGaleria {
+  width: 17vw;
+  height: 22vh;
+  margin: 10px;
+  transition: all 2s; }
+
+.imgGaleria:hover {
+  width: 18vw;
+  height: 25vh;
+  transform: scale(2); }
+
+/*Boton de la page Contacto*/
+.boton {
+  width: 20vw;
+  height: 7vh;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #6c757d;
+  transition: all 2s; }
+
+.boton:hover {
+  width: 25vw;
+  height: 9vh;
+  font-size: 1.5rem;
+  background-color: #1f1f26; }

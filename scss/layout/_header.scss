@@ -1,0 +1,22 @@
+/*HEADER-BANNER*/
+.banner{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.animacion{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    /* border-right: .15em solid #18bdec; */
+    /* animation: blink 1s steps(1) infinite; */
+    animation: typing 5s steps(18) 0s infinite normal both;
+}
+@keyframes typing{
+    from{
+        width: 0%;
+    }    
+    to{
+        width: 110%;
+    }
+}

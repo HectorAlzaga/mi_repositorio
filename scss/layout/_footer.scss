@@ -1,0 +1,40 @@
+/*FOOTER*/
+footer{
+    height: 100%;
+    width: 100%;
+    margin-top: 0%;
+    background-color: rgba(108, 117, 125, 1);
+    display: flex;
+    justify-content: center;
+}
+/*ENLACES A REDES SOCIALES EN EL FOOTER*/
+.bi-facebook{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 35px;
+    color: #fff;
+}
+.bi-facebook:hover{
+    color: #3b5998;
+}
+.bi-instagram{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 35px;
+    color: #fff;
+}
+.bi-instagram:hover{
+    color: #8a3ab9;
+}
+.bi-whatsapp{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 35px;
+    color: #fff;
+}
+.bi-whatsapp:hover{
+    color: #25d366;
+}
