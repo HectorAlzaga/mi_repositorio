@@ -24,12 +24,14 @@ body{
      height: 22vh;
      margin: 10px;
      transition: all 2s;
+
+    &:hover{
+        width: 18vw;
+        height: 25vh;
+        transform: scale(2);
+    }
  }
- .imgGaleria:hover{
-     width: 18vw;
-     height: 25vh;
-     transform: scale(2);
- }
+
  /*Boton de la page Contacto*/
  .boton{
      width: 20vw;
@@ -39,13 +41,15 @@ body{
      color: white;
      background-color: $colorDos;
      transition: all 2s;
- }
- .boton:hover{
-     width: 25vw;
-     height: 9vh;
-     font-size: 1.5rem;
-     background-color: rgb(31, 31, 38) ;
- }
+    
+     &:hover{
+        width: 25vw;
+        height: 9vh;
+        font-size: 1.5rem;
+        background-color: rgb(31, 31, 38) ;
+     }
+  }
+ 
  
  
  

@@ -81,11 +81,10 @@ body {
   height: 22vh;
   margin: 10px;
   transition: all 2s; }
-
-.imgGaleria:hover {
-  width: 18vw;
-  height: 25vh;
-  transform: scale(2); }
+  .imgGaleria:hover {
+    width: 18vw;
+    height: 25vh;
+    transform: scale(2); }
 
 /*Boton de la page Contacto*/
 .boton {
@@ -96,9 +95,8 @@ body {
   color: white;
   background-color: #484450;
   transition: all 2s; }
-
-.boton:hover {
-  width: 25vw;
-  height: 9vh;
-  font-size: 1.5rem;
-  background-color: #1f1f26; }
+  .boton:hover {
+    width: 25vw;
+    height: 9vh;
+    font-size: 1.5rem;
+    background-color: #1f1f26; }
