@@ -1,5 +1,32 @@
 @import 'utilities/variables';
 
+/*MAPA DE ESTILOS PARA ICONOS DE REDES SOCIALES*/
+
+$iconosRedes:(
+    facebook: #fff,
+    instagram: white,
+    whatsapp: white
+);
+
+$estilosRedes:(
+    tFuente: 30px,
+    tAlineacion: center,
+    margenIzquierdo: 5px,
+    margenDerecho: 35px
+
+);
+
+@each $icono, $color in $iconosRedes {
+    .btn--#{$icono}{
+        color: $color;
+        font-size: map-get($estilosRedes, tFuente);
+        text-align: map-get($estilosRedes, tAlineacion);
+        margin-left: map-get($estilosRedes, margenIzquierdo);
+        margin-right: map-get($estilosRedes, margenDerecho);
+    }
+}
+
+
 /*FOOTER*/
 footer{
     height: 100%;
@@ -10,32 +37,11 @@ footer{
     justify-content: center;
 }
 /*ENLACES A REDES SOCIALES EN EL FOOTER*/
-.bi-facebook{
-    font-size: 30px;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 35px;
-    color: #fff;
-}
 .bi-facebook:hover{
     color: #3b5998;
 }
-.bi-instagram{
-    font-size: 30px;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 35px;
-    color: #fff;
-}
 .bi-instagram:hover{
     color: #8a3ab9;
-}
-.bi-whatsapp{
-    font-size: 30px;
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 35px;
-    color: #fff;
 }
 .bi-whatsapp:hover{
     color: #25d366;

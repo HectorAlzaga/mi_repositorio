@@ -1,6 +1,7 @@
+@import 'utilities/variables';
 @import 'layout/header';
 @import 'layout/footer';
-@import 'utilities/variables';
+
 
 body{
     background-image: radial-gradient(circle, rgb(190, 215, 229), $colorCuatro)

@@ -1,4 +1,5 @@
 /*Paleta de Colores*/
+/*Paleta de Colores*/
 /*HEADER-BANNER*/
 .banner {
   background-color: #34baab;
@@ -20,6 +21,28 @@
     width: 110%; } }
 
 /*Paleta de Colores*/
+/*MAPA DE ESTILOS PARA ICONOS DE REDES SOCIALES*/
+.btn--facebook {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 35px; }
+
+.btn--instagram {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 35px; }
+
+.btn--whatsapp {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 35px; }
+
 /*FOOTER*/
 footer {
   height: 100%;
@@ -30,37 +53,15 @@ footer {
   justify-content: center; }
 
 /*ENLACES A REDES SOCIALES EN EL FOOTER*/
-.bi-facebook {
-  font-size: 30px;
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 35px;
-  color: #fff; }
-
 .bi-facebook:hover {
   color: #3b5998; }
-
-.bi-instagram {
-  font-size: 30px;
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 35px;
-  color: #fff; }
 
 .bi-instagram:hover {
   color: #8a3ab9; }
 
-.bi-whatsapp {
-  font-size: 30px;
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 35px;
-  color: #fff; }
-
 .bi-whatsapp:hover {
   color: #25d366; }
 
-/*Paleta de Colores*/
 body {
   background-image: radial-gradient(circle, #bed7e5, #c4c8c5); }
 
