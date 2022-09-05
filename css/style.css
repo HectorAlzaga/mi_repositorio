@@ -88,7 +88,7 @@ body {
     transform: scale(2); }
 
 /*Boton de la page Contacto*/
-.boton {
+.boton, .boton--inscribite {
   width: 20vw;
   height: 7vh;
   border-radius: 10px;
@@ -96,8 +96,13 @@ body {
   color: white;
   background-color: #484450;
   transition: all 2s; }
-  .boton:hover {
+  .boton:hover, .boton--inscribite:hover {
     width: 25vw;
     height: 9vh;
     font-size: 1.5rem;
     background-color: #1f1f26; }
+
+.boton--inscribite {
+  width: 15vw;
+  background-color: #34baab;
+  transition: all 4s; }

@@ -51,7 +51,14 @@ body{
      }
   }
  
- 
+ .boton--inscribite{
+    @extend .boton;
+    width: 15vw;
+    background-color: $colorUno;
+    transition: all 4s;
+
+
+ }
  
  
  
