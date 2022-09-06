@@ -56,11 +56,25 @@ body{
     width: 15vw;
     background-color: $colorUno;
     transition: all 4s;
-
-
  }
  
- 
+@mixin bordeImg($bordeColor) {
+    border-color: $bordeColor;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.bordeRojo{
+    @include bordeImg(red);
+}
+
+.bordeAzul{
+    @include bordeImg(blue  );
+}
+
+.bordeVerde{
+    @include bordeImg(green);
+}
  
  
  

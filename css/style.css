@@ -106,3 +106,18 @@ body {
   width: 15vw;
   background-color: #34baab;
   transition: all 4s; }
+
+.bordeRojo {
+  border-color: red;
+  border-width: 2px;
+  border-style: solid; }
+
+.bordeAzul {
+  border-color: blue;
+  border-width: 2px;
+  border-style: solid; }
+
+.bordeVerde {
+  border-color: green;
+  border-width: 2px;
+  border-style: solid; }
