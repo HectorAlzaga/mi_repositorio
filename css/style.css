@@ -41,9 +41,7 @@ footer {
   height: 100%;
   width: 100%;
   margin-top: 0%;
-  background-color: #466067;
-  display: flex;
-  justify-content: center; }
+  background-color: #466067; }
 
 /*ENLACES A REDES SOCIALES EN EL FOOTER*/
 .bi-facebook:hover {
