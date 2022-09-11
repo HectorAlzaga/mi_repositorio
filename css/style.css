@@ -69,16 +69,6 @@ body {
   text-decoration-line: none;
   color: white; }
 
-/*Transformacion en imagenes de Galeria*/
-.imgGaleria {
-  width: 17vw;
-  height: 22vh;
-  margin: 10px; }
-  .imgGaleria:hover {
-    width: 18vw;
-    height: 25vh;
-    transform: scale(2); }
-
 /*Boton de la page Contacto*/
 .boton, .boton--inscribite {
   width: 20vw;
@@ -113,3 +103,8 @@ body {
   border-color: green;
   border-width: 2px;
   border-style: solid; }
+
+.imagenesGaleria {
+  padding: 10px; }
+  .imagenesGaleria:hover {
+    transform: scale(1.2, 1.2); }
