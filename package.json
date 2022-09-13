@@ -1,7 +1,7 @@
 {
   "name": "entrega2-alzaga_hector",
   "version": "1.0.0",
-  "description": "",
+  "description": "sitio web para escuela de ajedrez",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/HectorAlzaga/mi_repositorio.git"
   },
-  "author": "",
+  "author": "alzaga hector",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/HectorAlzaga/mi_repositorio/issues"
