@@ -66,6 +66,8 @@ body {
   text-decoration: none;
   text-decoration-line: none;
   color: white; }
+  .colorlink:hover {
+    color: #34baab; }
 
 /*Boton de la page Contacto*/
 .boton, .boton--inscribite {

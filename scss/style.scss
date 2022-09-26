@@ -16,6 +16,10 @@ body{
      text-decoration: none;
      text-decoration-line: none;
      color: white;
+
+     &:hover{
+        color: $colorUno;
+     }
  }
  
  /*Boton de la page Contacto*/
