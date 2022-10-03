@@ -1,5 +1,3 @@
-@import 'utilities/variables';
-
 /*MAPA DE ESTILOS PARA ICONOS DE REDES SOCIALES*/
 
 $iconosRedes:(
@@ -28,10 +26,7 @@ $estilosRedes:(
 
 /*FOOTER*/
 footer{
-    height: 100%;
-    width: 100%;
-    margin-top: 0%;
-    background-color: $colorTres;
+    background-color: $colorDos;
 }
 /*ENLACES A REDES SOCIALES EN EL FOOTER*/
 .bi-facebook:hover{

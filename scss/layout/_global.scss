@@ -1,0 +1,35 @@
+body{
+    background-image: radial-gradient(circle, rgb(190, 215, 229), $colorCuatro)
+ }
+ /*NAV*/
+ .colorNav{
+     background-image: linear-gradient(to left, $colorDos, rgba(108, 117, 125, 1));
+ }
+ .colorlink{
+     font-size: 20px;
+     padding: 1rem;
+     text-decoration: none;
+     text-decoration-line: none;
+     color: white;
+
+     &:hover{
+        color: $colorUno;
+     }
+ }
+ @mixin bordeImg($bordeColor) {
+    border-color: $bordeColor;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.bordeUno{
+    @include bordeImg($colorUno);
+}
+
+.bordeDos{
+    @include bordeImg($colorDos );
+}
+
+.bordeTres{
+    @include bordeImg( $colorTres );
+}

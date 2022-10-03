@@ -1,31 +1,12 @@
 @import 'utilities/variables';
+@import 'layout/global';
 @import 'layout/header';
 @import 'layout/footer';
 
-
-body{
-    background-image: radial-gradient(circle, rgb(190, 215, 229), $colorCuatro)
- }
- /*NAV*/
- .colorNav{
-     background-image: linear-gradient(to left, $colorDos, rgba(108, 117, 125, 1));
- }
- .colorlink{
-     font-size: 20px;
-     padding: 1rem;
-     text-decoration: none;
-     text-decoration-line: none;
-     color: white;
-
-     &:hover{
-        color: $colorUno;
-     }
- }
- 
  /*Boton de la page Contacto*/
  .boton{
      width: 20vw;
-     height: 7vh;
+     min-height: 7vh;
      border-radius: 10px;
      margin-bottom: 10px;
      color: white;
@@ -46,25 +27,7 @@ body{
     background-color: $colorUno;
     transition: all 4s;
  }
- 
-@mixin bordeImg($bordeColor) {
-    border-color: $bordeColor;
-    border-width: 2px;
-    border-style: solid;
-}
-
-.bordeRojo{
-    @include bordeImg(red);
-}
-
-.bordeAzul{
-    @include bordeImg(blue  );
-}
-
-.bordeVerde{
-    @include bordeImg(green);
-}
- 
+  
 // Estilos para la galeria
 
 .imagenesGaleria{
